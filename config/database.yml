@@ -13,10 +13,10 @@ default: &default
   adapter: mysql2
   encoding: utf8mb4
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  host: localhost
   username: root
   password: password
   socket: /tmp/mysql.sock
+  # socket: /var/lib/mysql/mysql.sock 
 
 development:
   <<: *default
@@ -51,6 +51,7 @@ test:
 production:
   <<: *default
   adapter: mysql2
-  database: my_dictionary_production
-  username: root
-  password: <%= ENV['MY_DICTIONARY_DATABASE_PASSWORD'] %>
+  database: heroku_9a0e8d18bd341b2
+  host: us-cdbr-east-02.cleardb.com
+  username: baf5318c99fb50
+  password: bb92d676
