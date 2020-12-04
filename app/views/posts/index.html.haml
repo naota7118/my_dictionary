@@ -1,0 +1,1008 @@
+.container-fluid
+  .row.row-0
+    .col-sm-2
+      = render "left"
+    .col-sm-8
+      = render "main"
+    .col-sm-2
+      = render "right"
+
+-# <%# <!DOCTYPE HTML>
+-# <html>
+-#   <head>
+-#     <meta charset="UTF-8">
+-#   </head>
+-#   <body>
+-#     <!-- header -->
+-#     <header>
+-#       <h1 id="name">Naota Takahashi</h1>
+-#     </header>
+-#     <div class="fix__header">
+-#       <nav class="navi is-fixed">
+-#         <h2 class="fade__name">Naota Takahashi</h2>
+-#         <ul class="menu">
+-#           <li>
+-#             <a class="gosection" href="#profile">Profile</a>
+-#           <li>
+-#           <li>
+-#             <a class="gosection" href="#vision">Vision</a>
+-#           <li>
+-#           <li>
+-#             <a class="gosection" href="#vision">Vision</a>
+-#           <li>
+-#           <li>
+-#             <a class="gosection" href="#portfolio">Portfolio</a>
+-#           <li>
+-#           <li>
+-#             <a class="gosection" href="#others">Others</a>
+-#           <li>
+-#           <li>
+-#             <a class="gosection" href="#hobby">Hobby</a>
+-#           <li>
+-#         </ul>
+-#       </nav>
+-#     </div>
+-#     <div class="responsive__header">
+-#       <h2 class="responsive__header__name">Naota Takahashi</h2>
+-#       <ul class="responsive__menu">
+-#         <div class="upside">
+-#           <li>
+-#             <a class="gosection res__menu" href="#profile">Profile</a>
+-#           </li>
+-#           <li>
+-#             <a class="gosection res__menu" href="#vision">Vision</a>
+-#           </li>
+-#           <li>
+-#             <a class="gosection res__menu" href="#skills">Skills</a>
+-#           </li>
+-#         <div class="bottomside">
+-#           <li>
+-#             <a class="gosection res__menu" href="#portfolio">Portfolio</a>
+-#           </li>
+-#           <li>
+-#             <a class="gosection res__menu" href="#others">Others</a>
+-#           </li>
+-#           <li>
+-#             <a class="gosection res__menu" href="#hobby">Hobby</a>
+-#           </li>
+-#         </div>
+-#       </ul>
+-#     </div>
+-#     <!-- main -->
+-#     <div id="main">
+-#       <!-- mainVisual -->
+-#       <div id="mainVisual">
+-#         <div class="pc">
+-#           <img src="" >
+-#         </div>
+-#       </div>
+-#     </div>
+-#     <div class="wrapper boxes">
+-#       <div class="main__content">
+-#         <!-- プロフィール -->
+-#         <section id="profile" class="box animated fadeOut">
+-#           <div class="content__wrapper">
+-#             <h2>
+-#             </h2>
+-#             <div class="profile__wrapper">
+-#               <!-- 左側 -->
+-#               <div class="profile__left">
+-#               </div>
+-#               <!-- 右側 -->
+-#               <div class="profile__right">
+-#                 <div class="content">
+-#                   <div class="target__1" id="profile__1"></div>
+-#                   <h3 class="history__title">経歴</h3>
+-#                   <h4>2015年3月 国際医療福祉大学大学院 臨床心理学専攻 修了</h4>
+-#                   <p class="for__pc">2015年3月 国際医療福祉大学大学院 臨床心理学専攻 修了</p>
+-#                   <p class="for__response">2015年3月 国際医療福祉大学大学院 臨床心理学専攻 修了</p>
+-#                 </div>
+-#               </div>
+-#             </div>
+-#           </div>
+-#         </section>
+-#       </div>
+-#     </div>
+
+
+-#     <section>
+-#       PFサイトをご覧いただきありがとうございます！
+-#       これまでの成果や活動をここにまとめていますので、
+-#       ぜひ最後までご覧いただけると幸いです。
+-#     </section>
+-#     <section>
+-#       Profile
+-#       経歴
+-#     </section> 
+-#     <section>
+-#       Vision
+-#       なぜエンジニアになりたいのか
+-#       1年後の姿
+-#       3年後の姿
+-#     </section> 
+-#     <section>
+-#       学習経験のある言語・技術
+-#       使用可能ツール
+-#       学習経緯
+-#     </section> 
+-#     <section>
+-#       個人開発アプリ
+-#     </section> 
+-#     <section>
+-#       Qiita執筆
+-#       YouTube
+-#     </section> 
+-#     <section>
+-#       Hobby
+-#       筋トレ
+-#       ブログ
+-#     </section> 
+-#     <body id="top">
+-#   <!-- 拡大表示用のオーバーレイ -->
+-#   <div class="overlay">
+-#     <div class="popup-content"></div>
+-#   </div>
+-#   <!-- header -->
+-#   <header>
+-#     <h1 id="name">Kazuki Okimori</h1>
+-#   </header>
+-#   <div class="fix__header">
+-#     <nav class="navi">
+-#         <h2 class="fade__name">Kazuki Okimori</h2>
+-#         <ul class="menu">
+-#           <li><a class="gosection" href="#profile">Profile</a></li>
+-#           <li><a class="gosection" href="#vision">Vision</a></li>
+-#           <li><a class="gosection" href="#skills">Skills</a></li>
+-#           <li><a class="gosection" href="#portfolio">Portfolio</a></li>
+-#           <li><a class="gosection" href="#others">Others</a></li>
+-#           <li><a class="gosection" href="#hobby">Hobby</a></li>
+-#         </ul>
+-#     </nav>
+-#   </div>
+-#   <div class="responsive__header">
+-#     <h2 class="responsive__header__name">Kazuki Okimori</h2>
+-#     <ul class="responsive__menu">
+-#       <div class="upside">
+-#         <li><a class="gosection res__menu" href="#profile">Profile</a></li>
+-#         <li><a class="gosection res__menu" href="#vision">Vision</a></li>
+-#         <li><a class="gosection res__menu" href="#skills">Skills</a></li>
+-#       </div>
+-#       <div class="bottomside">
+-#         <li><a class="gosection res__menu" href="#portfolio">Portfolio</a></li>
+-#         <li><a class="gosection res__menu" href="#others">Others</a></li>
+-#         <li><a class="gosection res__menu" href="#hobby">Hobby</a></li>
+-#       </div>
+-#     </ul>
+-#   </div>
+-#   <!-- main -->
+-#   <div id="main">
+-#     <!-- mainVisual -->
+-#     <div id="mainVisual">
+-#       <div class="pc">
+-#         <img src="image/image0.png" alt="">
+-#       </div>
+-#       <!-- <div class="sp">
+-#         <img src="" alt="">
+-#       </div> -->
+-#     </div>
+-#     <div class="wrapper boxes">
+-#       <div class="main__content">
+-#         <!-- プロフィール -->
+-#         <section id="profile" class="box animated">
+-#           <div class="content__wrapper">
+-#             <h2><span>Profile</span></h2>
+-#             <div class="profile__wrapper">
+-#               <!-- 左側 -->
+-#               <div class="profile__left ">
+-#                 <div class="content">
+-#                   <a class="popup" href="image/image1.png">
+-#                     <img class="profile__icon" src="image/image1.png"alt="">
+-#                   </a>
+-#                   <div class="personal__info">
+-#                     <ul id="personal__list">
+-#                       <div>
+-#                       <li class="personal__list__item">
+-#                         <h3 class="question">パーソナル情報</h3>
+-#                         <div class="answer">
+-#                           <p>本名：沖盛 和希<br>
+-#                             愛称：おっきー<br>
+-#                             年齢：24歳<br>
+-#                             在住：愛知県<br>
+-#                             性格：ポジティブ<br>
+-#                             趣味：<a class="gosection" href="#hobby__2">写真撮影</a><br>
+-#                             特技：イントロクイズ<br>
+-#                           </p>
+-#                         </div>
+-#                       </li>
+-#                       </div>
+-#                       <div>
+-#                       <li class="personal__list__item">
+-#                         <h3 class="question">好きな○○</h3>
+-#                         <div class="answer">
+-#                           <p>歌手：Mr.Children<br>
+-#                             楽器：アコギ<br>
+-#                             映画：コナン<br>
+-#                             言葉：笑顔・前向き<br>
+-#                             ドラマ：半沢直樹<br>
+-#                             食べ物：寿司<br>
+-#                             ブランド：Apple<br>
+-#                           </p>
+-#                         </div>
+-#                       </li>
+-#                       </div>
+-#                     </ul>
+-#                   </div>
+-#                 </div>
+-#               </div>
+-#               <!-- 右側 -->
+-#               <div class="profile__right">
+-#                 <div class="content">
+-#                   <div class="target__1" id="profile__1"></div>
+-#                   <h3 class="history__title">経歴</h3>
+-#                   <h4>2014年3月　工業高校 電気科 卒業</h4>
+-#                   <p class="for__pc">　高校では<span class="accent">｢ものづくり大会｣に出場</span>するなど積極的にものづくりに関わってきました。<br>
+-#                       部活動では部員80名のチームを率いるマネージャーとして活動してきました。<br>
+-#                       その経験から組織マネジメントと｢自ら考え行動する｣ことの重要性を学びました。
+-#                   </p>
+-#                   <p class="for__response">
+-#                     　高校では<span class="accent">｢ものづくり大会｣に出場</span>するなど積極的にものづくりに関わってきました。
+-#                       部活動では部員80名のチームを率いるマネージャーとして活動してきました。
+-#                       その経験から組織マネジメントと｢自ら考え行動する｣ことの重要性を学びました。
+-#                   </p>
+-#                   <div class="target" id="profile__2"></div>
+-#                   <h4>2014年4月　自動車部品メーカーへ就職　企業内訓練校へ配属</h4>
+-#                   <p class=for__pc>　入社直後の1年間は企業内訓練校の訓練生として配属されました。<br>
+-#                     同期145名と寮生活を共にし、様々な学習カリキュラムをこなす中で<br>
+-#                     学生時代に培った<span class="accent">「自ら考え行動する力」を発揮</span>してきました。<br>
+-#                     その結果、下記の成果を収めることが出来ました。<br>
+-#                   </p>
+-#                   <p class="for__response">
+-#                     　入社直後の1年間は企業内訓練校の訓練生として配属されました。
+-#                     同期145名と寮生活を共にし、様々な学習カリキュラムをこなす中で
+-#                     学生時代に培った<span class="accent">「自ら考え行動する力」を発揮</span>してきました。
+-#                     その結果、下記の成果を収めることが出来ました。
+-#                   </p>
+-#                     <div class="achievement">
+-#                       <div class="achievement__content">
+-#                         <ul>
+-#                           <li><span>愛知県知事賞</span>を受賞</li>
+-#                           <li>企業代表として<span>1000名の前に登壇しスピーチ</span></li>
+-#                           <li><span>145名中1位</span>の成績で卒業</li>
+-#                         </ul>
+-#                       </div>
+-#                       <div class="achievement__content">
+-#                         <div class="achievement__image">
+-#                           <a class="popup memory__1" href="image/image2.jpg">
+-#                             <img class="profile__icon" src="image/image2.jpg"alt="">
+-#                           </a>
+-#                           <p>県知事賞</p>
+-#                         </div>
+-#                       </div>
+-#                     </div>
+-#                   <div class="target" id="profile__3"></div>
+-#                   <h4>2015年3月　本社工場　保全係へ配属</h4>
+-#                   <p class="for__pc">　訓練校卒業後は本社工場の保全係として主に生産設備の修理・改善業務を遂行。<br>
+-#                     高度な専門知識を必要とするため、<span class="accent">業務時間外でも継続的に学習</span>してきました。<br>
+-#                     学んだことを現場で<span class="accent">即アウトプットすることで１つずつ技術を習得</span>してきました。<br>
+-#                     その結果、下記のような成果を残すことが出来ました。
+-#                   </p>
+-#                   <p class="for__response">　訓練校卒業後は本社工場の保全係として主に生産設備の修理・改善業務を遂行。
+-#                     高度な専門知識を必要とするため、<span class="accent">業務時間外でも継続的に学習</span>してきました。
+-#                     学んだことを現場で<span class="accent">即アウトプットすることで１つずつ技術を習得</span>してきました。
+-#                     その結果、下記のような成果を残すことが出来ました。
+-#                   </p>
+-#                   <div class="achievement">
+-#                     <div class="achievement__content">
+-#                       <ul>
+-#                         <li>海外拠点に出張し現地の<span>生産出来高を30%から70%に向上</span></li>
+-#                         <li>シーケンサプログラムを設計して<span>部品検索システムを開発</span></li>
+-#                         <li>生産設備を<span>故障させないための仕組み化</span>の実施</li>
+-#                       </ul>
+-#                     </div>
+-#                     <div class="achievement__content">
+-#                       <div class="achievement__image">
+-#                         <a class="popup memory__2" href="image/image3.png"><img class="profile__icon" src="image/image3.png"alt="">
+-#                         </a>
+-#                         <p>海外のメンバーと</p>
+-#                       </div>
+-#                     </div>
+-#                   </div>
+-#                   <p class="for__pc">　その他にも持ち前の<span class="accent">｢チャレンジ精神｣</span>を発揮し様々な仕事に挑戦してきました。<br>
+-#                     前向きに行動し続けることで上司や他職場の方々からの理解・協力をいただき、<br>
+-#                     下記のように幅広く業務を経験することが出来ました。
+-#                   </p>
+-#                   <p class="for__response">　その他にも持ち前の<span class="accent">｢チャレンジ精神｣</span>を発揮し様々な仕事に挑戦してきました。
+-#                     前向きに行動し続けることで上司や他職場の方々からの理解・協力をいただき、
+-#                     下記のように幅広く業務を経験することが出来ました。
+-#                   </p>
+-#                   <div class="achievement">
+-#                     <div class="achievement__content">
+-#                       <ul>
+-#                         <li>業務を効率化するため<span>ITシステムの導入</span>を担当</li>
+-#                         <li>労働組合委員として高卒新入社員<span>160名の研修を担当</span></li>
+-#                         <li>高度スキルを要する作業を<span>マニュアル化し職場の資産形成</span></li>
+-#                       </ul>
+-#                       <p>
+-#                     </div>
+-#                     <div class="achievement__content">
+-#                       <div class="achievement__image">
+-#                         <a class="popup memory__3" href="image/image4.png"><img class="profile__icon" src="image/image4.png"alt="">
+-#                         </a>
+-#                         <p>新人研修での一枚</p>
+-#                       </div>
+-#                     </div>
+-#                   </div>
+-#                   <div class="target"></div>
+-#                   <h4>2020年6月　退職</h4>
+-#                   <p class="for__pc">　退職後は独学者同士でチーム開発に挑戦したり、もくもく会やポートフォリオの<br>
+-#                     品評会など様々なイベントを主催してきました。
+-#                   </p>
+-#                   <p class="for__response">　退職後は独学者同士でチーム開発に挑戦したり、もくもく会やポートフォリオの
+-#                     品評会など様々なイベントを主催してきました。
+-#                   </p>
+-#                   <!-- <div class="profile__buffer"></div> -->
+-#                   <div class="target"></div>
+-#                   <h4>2020年9月　転職活動中</h4>
+-#                   <p>
+-#                     現在、フロントエンドエンジニアを目指し転職活動中です。　
+-#                   </p>
+-#                 </div>
+-#               </div>
+-#             </div>
+-#           </div>
+-#         </section>
+-#         <!-- ビジョン -->
+-#           <section id="vision" class="box animated animated parallax-section parallax-section-1">
+-#             <div class="content__wrapper">
+-#               <h2><span>Vision</span></h2>
+-#               <div class="content__wrapper__adjust">
+-#                 <div class="target" id="skill__1"></div>
+-#                 <div class="content">
+-#                   <h3><span>01</span>なぜエンジニアになりたいのか</h3>
+-#                   <p>　自分の手で世の人々に感動体験を与えられるようなサービスを手掛けたいと思ったからです。
+-#                     前職でもものづくりに携わっており、創意工夫して作り上げたものが、人の役に立った時に私は大きな喜びを感じてきました。
+-#                     これからもものづくりを通してより多くの人の力になれることがしたい！そう考えたときに、
+-#                     人とITの関わりが増えていくであろう今後を見通し、ITを通して多くの人に価値を提供できるWEBエンジニアを目指そうと思いました。
+-#                     未経験ではありますが、日々全力でキャッチアップして1日でも早く御社の主力として活躍することを約束いたします。
+-#                   </p>
+-#                 </div>
+-#                 <div class="target" id="skill__2"></div>
+-#                 <div class="content">
+-#                   <h3><span>02</span>フロントエンドを目指す理由</h3>
+-#                   <p>　WEBサービス、アプリにおいて大事なことは、「ある程度触らないと使い方が分からない」ものではなく「直感的に操作が理解できる」「使ってみたいと思ってもらえるデザイン」が大事だと考えています。
+-#                     どんな高機能なシステムでも使い方が分かりづらいと使ってもらえないという経験を前職でしたので、
+-#                     そこから見た目に対するこだわりを人一倍強く持つようになりました。
+-#                     人と同じでWEBサービスも「第一印象」が大事だと思うので、そこを作り上げていくフロントエンドに魅力を感じて目指そうと思いました。
+-#                   </p>
+-#                 </div>
+-#                 <div class="target" id="skill__3"></div>
+-#                 <div class="content">
+-#                   <h3><span>03</span>1年後の姿</h3>
+-#                   <p>　「沖盛に聞けば何でも解決してくれる」と言われるような存在になることです。
+-#                     そのために取り組むこととして、技術を向上させるための努力をするのはもちろんですが、それ以上に一緒に働く皆さんとのコミュニケーションを大事にしたいと考えています。
+-#                     話しやすい存在になることで「技術的な相談」もしやすくなると思いますし、チーム全体に相乗効果が生み出せるような存在になりたいと思います。
+-#                   </p>
+-#                 </div>
+-#                 <div class="target" id="skill__4"></div>
+-#                 <div class="content">
+-#                   <h3><span>04</span>3年後の姿</h3>
+-#                   <p>
+-#                       デザインのスキルも身につけワイヤーフレーム設計からコーディングまで１人で一貫して行えるようになっていたいです。
+-#                       上流工程にも関わっていく中で、持ち前の傾聴力とそれまで培ってきた知識を生かして顧客の課題を明確していきます。
+-#                       そして、その課題を解決するための最善の手段を提案・実現することで、会社にとっても大きな価値を生み出せる人材になっていることをお約束致します。
+-#                   </p>
+-#                 </div>
+-#               </div>
+-#             </div>
+-#           </section>
+-#           <!-- スキル -->
+-#           <section id="skills" class="box animated parallax-section parallax-section-2">
+-#             <div class="content__wrapper">
+-#               <h2><span>Skills</span></h2>
+-#               <div class=skills__flex>
+-#                 <div class="content skill__content__top">
+-#                   <h3 class="skill__title">学習経験のある言語・技術</h3>
+-#                   <div class="skill__card">
+-#                     <div class="skill">
+-#                       <img src="image/html.png" alt="">
+-#                       <h5>HTML</h5>
+-#                     </div>
+-#                     <div class="skill">
+-#                       <img src="image/css.png" alt="">
+-#                       <h5>CSS</h5>
+-#                     </div>
+-#                     <div class="skill">
+-#                       <img src="image/javascript.png" alt="">
+-#                       <h5>JavaScript</h5>
+-#                     </div>
+-#                     <div class="skill">
+-#                       <img src="image/jquery.png" alt="">
+-#                       <h5>jQuery</h5>
+-#                     </div>
+-#                     <div class="skill">
+-#                       <img src="image/vue.png" alt="">
+-#                       <h5>Vue.js</h5>
+-#                     </div>
+-#                     <div class="skill">
+-#                       <img src="image/firebase.png" alt="">
+-#                       <h5>Firebase</h5>
+-#                     </div>
+-#                     <div class="skill">
+-#                       <img src="image/ruby.png" alt="">
+-#                       <h5>Ruby</h5>
+-#                     </div>
+-#                     <div class="skill">
+-#                       <img src="image/rails.png" alt="">
+-#                       <h5>Ruby on Rails</h5>
+-#                     </div>
+-#                     <div class="skill">
+-#                       <img src="image/git.png" alt="">
+-#                       <h5>Git</h5>
+-#                     </div>
+-#                   </div>
+-#                 </div>
+-#                 <div class="skill__right">
+-#                   <div class="content skill__content__bottom right__top">
+-#                     <h3 class="skill__title">使用可能ツール</h3>
+-#                     <div class="skill__card">
+-#                       <div class="skill">
+-#                         <img src="image/image11.png" alt="">
+-#                         <h5>Photoshop</h5>
+-#                       </div>
+-#                       <div class="skill">
+-#                         <img src="image/image10.png" alt="">
+-#                         <h5>Xd</h5>
+-#                       </div>
+-#                     </div>
+-#                   </div>
+-#                   <div class="content skill__content__bottom">
+-#                     <h3 class="skill__title">学習経緯</h3>
+-#                     <p>　独学でひと通りの言語を学んだ後、Gitを用いた共同開発をしました。
+-#                       共同開発アプリ用ワイヤーフレームを設計するためにAdobeのソフトの使い方も学びました。
+-#                     その後、オンラインスクールでJavaScriptを中心に学習を進めました。
+-#                     </p>
+-#                   </div>
+-#                 </div>
+-#               </div>
+-#             </div>
+-#           </section>
+-#           <!-- ポートフォリオ -->
+-#           <section id="portfolio" class="box animated animated parallax-section parallax-section-3">
+-#             <div class="content__wrapper">
+-#               <h2><span>Portfolio</span></h2>
+-#               <!-- 共同開発 -->
+-#               <div class="target" id="portfolio__1"></div>
+-#               <div class="content portfolio1">
+-#                 <h3 class="portfolio__title">共同開発アプリ</h3>
+-#                 <div class="portfolio__detail">
+-#                   <div class="portfolio__detail__left">
+-#                     <video src="image/movie1.mov" controls></video>
+-#                     <div class="portfolio__image__buffer"></div>
+-#                       <!-- カルーセル開始 -->
+-#                       <div class="carousel__wrapper">
+-#                         <div class="carousel">
+-#                           <ul class="slides slides1">
+-#                             <li><a class="popup" href="image/image50.png"><img src="image/image50.png"alt=""></a></li>
+-#                             <li><a class="popup" href="image/image51.png"><img src="image/image51.png"alt=""></a></li>
+-#                             <li><a class="popup" href="image/image52.png"><img src="image/image52.png"alt=""></a></li>
+-#                             <li><a class="popup" href="image/image53.png"><img src="image/image53.png"alt=""></a></li>
+-#                           </ul>
+-#                         </div>
+-#                         <a href="#" class="carousel-control carousel-control-prev prev1">&lt;</a>
+-#                         <div class="slide__number">
+-#                           <span class="number__now1"></span>
+-#                           <span class="number__center">／</span>
+-#                           <span class="number1"></span>
+-#                         </div>
+-#                         <a href="#" class="carousel-control carousel-control-next next1">&gt;</a>
+-#                       </div>
+-#                       <!-- カルーセル終了 -->
+-#                       <!-- <a class="popup" href="image/image5.jpg"><img src="image/image5.jpg"alt=""> -->
+-#                       <!-- </a> -->
+-#                   </div>
+-#                   <div class="portfolio__detail__right">
+-#                     <h4><i class="far fa-file-code"></i> 使用した言語・技術</h4>
+-#                     <p class="language">HTML、CSS、JavaScript、jQuery、Ruby、Ruby on Rails、MySQL
+-#                     </p>
+-#                     <div class="point__message">
+-#                       <h4 class="point__message"><i class="fas fa-comment"></i> 開発エピソード</h4>
+-#                       <p class="for__pc"><span class="point__message__accent">独学者同士でゼロから開発</span>をしました。
+-#                         デザイン無知の状態からAdobeXdの使い方を調べ、
+-#                         <span class="point__message__accent">試行錯誤しながらワイヤーフレームを設計</span>しました。
+-#                         チームメンバーとは<span class="point__message__accent">毎日ZOOMミーティングで進捗確認</span>しました。
+-#                         ｢開発環境はどうするのか｣ ｢このエラーは解決出来るのか｣
+-#                         ｢コンフリクトはどうやって解決するのか｣、次々と降りかかる
+-#                         課題にもめげずに１ヶ月で完成させることが出来ました。
+-#                         完成物は<span class="point__message__accent">実際にユーザーに使って頂き、</span>UI/UXに関していくつかの
+-#                         フィードバックを得ることが出来ました。
+-#                         それらを<span class="point__message__accent">改善しユーザービリティを向上させる</span>という経験を
+-#                         積むことができました。開発当初から私の技術力は高いとは
+-#                         言えませんでしたが、ゼロから設計したものが形になって
+-#                         ユーザーに使ってもらえたことに大きな達成感を得られました。
+-#                         同時に<span class="point__message__accent">もっと多くの人に使ってもらえるようなWEBサービスを
+-#                         作りたいという思いが一層強くなりました。</span>
+-#                       </p>
+-#                       <p class="for__response">
+-#                         <span class="point__message__accent">独学者同士でゼロから開発</span>をしました。
+-#                         デザイン無知の状態からAdobeXdの使い方を調べ、
+-#                         <span class="point__message__accent">試行錯誤しながらワイヤーフレームを設計</span>しました。
+-#                         チームメンバーとは<span class="point__message__accent">毎日ZOOMミーティングで進捗確認</span>しました。
+-#                         ｢開発環境はどうするのか｣ ｢このエラーは解決出来るのか｣
+-#                         ｢コンフリクトはどうやって解決するのか｣、次々と降りかかる
+-#                         課題にもめげずに１ヶ月で完成させることが出来ました。
+-#                         完成物は<span class="point__message__accent">実際にユーザーに使って頂き、</span>UI/UXに関していくつかの
+-#                         フィードバックを得ることが出来ました。
+-#                         それらを<span class="point__message__accent">改善しユーザービリティを向上させる</span>という経験を
+-#                         積むことができました。開発当初から私の技術力は高いとは
+-#                         言えませんでしたが、ゼロから設計したものが形になって
+-#                         ユーザーに使ってもらえたことに大きな達成感を得られました。
+-#                         同時に<span class="point__message__accent">もっと多くの人に使ってもらえるようなWEBサービスを
+-#                         作りたいという思いが一層強くなりました。</span>
+-#                       </p>
+-#                     </div>
+-#                   </div>
+-#                 </div>
+-#                 <p class="url"><a href="https://memopy.herokuapp.com/">アプリを起動する</a></p>
+-#               </div>
+-#               <!-- 個人開発 -->
+-#               <div class="target" id="portfolio__2"></div>
+-#               <div class="content portfolio2">
+-#                 <h3 class="portfolio__title">個人開発アプリ</h3>
+-#                 <div class="portfolio__detail">
+-#                   <div class="portfolio__detail__left">
+-#                     <video src="image/movie2.mov" controls></video>
+-#                     <div class="portfolio__image__buffer">
+-#                     </div>
+-#                     <!-- カルーセル開始 -->
+-#                     <div class="carousel__wrapper">
+-#                       <div class="carousel">
+-#                         <ul class="slides slides2">
+-#                           <li><a class="popup" href="image/image62.png"><img src="image/image62.png"alt=""></a></li>
+-#                           <li><a class="popup" href="image/image61.png"><img src="image/image61.png"alt=""></a></li>
+-#                           <li><a class="popup" href="image/image60.png"><img src="image/image60.png"alt=""></a></li>
+-#                         </ul>
+-#                       </div>
+-#                       <a href="#" class="carousel-control carousel-control-prev prev2">&lt;</a>
+-#                       <div class="slide__number">
+-#                         <span class="number__now2"></span>
+-#                         <span class="number__center">／</span>
+-#                         <span class="number2"></span>
+-#                       </div>
+-#                       <a href="#" class="carousel-control carousel-control-next next2">&gt;</a>
+-#                     </div>
+-#                     <!-- カルーセル終了 -->
+-#                   </div>
+-#                   <div class="portfolio__detail__right">
+-#                     <h4><i class="far fa-file-code"></i> 使用した言語・技術</h4>
+-#                     <p class="language">HTML、CSS、JavaScript、Vue.js <br>
+-#                     </p>
+-#                     <div class="point__message">
+-#                       <h4><i class="fas fa-comment"></i> 開発エピソード</h4>
+-#                       <div class="for__pc">
+-#                         <p>このアプリを作った<span class="point__message__accent">目的は１人でも多くの人に一眼レフの楽しさを
+-#                           知ってもらうこと</span>です。これまで「カメラを買ったけど使い方が分からない」、
+-#                         「高い買い物だから失敗したくない」という人とたくさん出会ってきました。
+-#                           Camera Coachはそんな悩みを抱えた人にとってうってつけとなります。
+-#                           実際にカメラの設定ボタンをページに配置して、<span class="point__message__accent">どの設定を触れば
+-#                           ｢ボケ感のある写真｣が撮れるのか、｢満点の星空｣が撮影出来るのかを
+-#                           ブラウザ上で体感することが出来ます。</span>
+-#                           これによって、カメラを買う前から一眼レフの設定を方法を予習出来ますし、
+-#                           買ったあとでも復習することが出来るようになります。
+-#                           <span class="point__message__accent">このアプリは私が主催したポートフォリオ品評会に出品</span>し、実際にユーザーに
+-#                           使用していただきました。そこで何点かフィードバックをもらえたので、
+-#                           もっと改善して、より多くの人に使われるようなものを作りたいと思いました。
+-#                         </p>
+-#                       </div>
+-#                       <div class="for__response">
+-#                         <p>このアプリを作った<span class="point__message__accent">目的は１人でも多くの人に一眼レフの楽しさを
+-#                           知ってもらうこと</span>です。これまで「カメラを買ったけど使い方が分からない」、
+-#                         「高い買い物だから失敗したくない」という人とたくさん出会ってきました。
+-#                           Camera Coachはそんな悩みを抱えた人にとってうってつけとなります。
+-#                           実際にカメラの設定ボタンをページに配置して、<span class="point__message__accent">どの設定を触れば
+-#                           ｢ボケ感のある写真｣が撮れるのか、｢満点の星空｣が撮影出来るのかを
+-#                           ブラウザ上で体感することが出来ます。</span>
+-#                           これによって、カメラを買う前から一眼レフの設定を方法を予習出来ますし、
+-#                           買ったあとでも復習することが出来るようになります。
+-#                           <span class="point__message__accent">このアプリは私が主催したポートフォリオ品評会に出品</span>し、実際にユーザーに
+-#                           使用していただきました。そこで何点かフィードバックをもらえたので、
+-#                           もっと改善して、より多くの人に使われるようなものを作りたいと思いました。
+-#                         </p>
+-#                       </div>
+-#                     </div>
+-#                   </div>
+-#                 </div>
+-#                 <p class="url"><a href="https://kazuoki.github.io/camera_coach/top.html">アプリを起動する</a></p>
+-#               </div>
+-#             </div>
+-#           </section>
+-#           <!-- その他 -->
+-#           <section id="others" class="box animated animated animated parallax-section parallax-section-4">
+-#             <div class="content__wrapper">
+-#               <h2><span>Others</span></h2>
+-#               <div class="target" id="others__0"></div>
+-#               <div class="content others0">
+-#                 <h3 class="others__title">Qiita執筆</h3>
+-#                 <div class="others__detail">
+-#                   <div class="others__detail__left">
+-#                     <a class="popup" href="image/image70.png">
+-#                       <img src="image/image70.png"alt="">
+-#                     </a>
+-#                   </div>
+-#                   <div class="others__detail__right">
+-#                     <h4><i class="fas fa-chalkboard"></i> 概要</h4>
+-#                     <p>JavaScriptの関数について執筆</p>
+-#                     <div class="point__message">
+-#                       <h4 class="point__message"><i class="fas fa-hand-point-right"></i> こだわりポイント</h4>
+-#                       <div class="for__pc">
+-#                         <p>JavaScriptの重要概念でもある関数・引数・戻り値について
+-#                           解説した記事を執筆したところ、<span class="point__message__accent">120LGTMをいただき
+-#                           トレンド入り</span>させていただくことができました。
+-#                           <a href="https://t.co/mi3mFsKs21">記事はこちら</a>
+-#                         </p>
+-#                       </div>
+-#                       <div class="for__response">
+-#                         <p>JavaScriptの重要概念でもある関数・引数・戻り値について
+-#                           解説した記事を執筆したところ、<span class="point__message__accent">120LGTMをいただき
+-#                           トレンド入り</span>させていただくことができました。
+-#                           <a href="https://t.co/mi3mFsKs21">記事はこちら</a>
+-#                         </p>
+-#                       </div>
+-#                     </div>
+-#                   </div>
+-#                 </div>
+-#               </div>
+-#               <div class="target" id="others__1"></div>
+-#               <div class="content others1">
+-#                 <h3 class="others__title">もくもく会</h3>
+-#                 <div class="others__detail">
+-#                   <div class="others__detail__left">
+-#                     <a class="popup" href="image/image6.jpg">
+-#                       <img src="image/image6.jpg"alt="">
+-#                     </a>
+-#                   </div>
+-#                   <div class="others__detail__right">
+-#                     <h4><i class="fas fa-chalkboard"></i> 概要</h4>
+-#                     <p>現役エンジニアを含む10人が参加するもくもく会を主催。</p>
+-#                     <div class="point__message">
+-#                       <h4 class="point__message"><i class="fas fa-hand-point-right"></i> こだわりポイント</h4>
+-#                       <div class="for__pc">
+-#                         <p>学習の進め方やポートフォリオアプリの意見交換など、
+-#                           オフラインの強みを生かしたイベントにしました。
+-#                           実際に同じ目標に向かって行動している仲間と繋がることで
+-#                           <span class="point__message__accent">モチベーションが高まり有意義な会になりました！</span>
+-#                         </p>
+-#                       </div>
+-#                       <div class="for__response">
+-#                         <p>学習の進め方やポートフォリオアプリの意見交換など、
+-#                           オフラインの強みを生かしたイベントにしました。
+-#                           実際に同じ目標に向かって行動している仲間と繋がることで
+-#                           <span class="point__message__accent">モチベーションが高まり有意義な会になりました！</span>
+-#                         </p>
+-#                       </div>
+-#                     </div>
+-#                   </div>
+-#                 </div>
+-#               </div>
+-#               <div class="target" id="others__2"></div>
+-#               <div class="content others2">
+-#                 <h3 class="others__title">オンラインもくもく会</h3>
+-#                 <div class="others__detail">
+-#                   <div class="others__detail__left">
+-#                     <a class="popup" href="image/image8.png">
+-#                       <img src="image/image8.png"alt="">
+-#                     </a>
+-#                   </div>
+-#                   <div class="others__detail__right">
+-#                     <h4><i class="fas fa-chalkboard"></i> 概要</h4>
+-#                     <p>Twitterで募集しオンラインもくもく会を主催。</p>
+-#                     <div class="point__message">
+-#                       <h4 class="point__message"><i class="fas fa-hand-point-right"></i> こだわりポイント</h4>
+-#                       <div class="for__pc">
+-#                         <p>プログラミング初学者を対象にTwitterで募集をかけ、
+-#                           オンラインもくもく会を主催。
+-#                           1人1人とコミュニケーションの時間を取りたいと
+-#                           考えたので少人数で開催しました。
+-#                           <span class="point__message__accent">人に教える経験を積むことで学びが深まりました！</span>
+-#                         </p>
+-#                       </div>
+-#                       <div class="for__response">
+-#                         <p>プログラミング初学者を対象にTwitterで
+-#                           募集をかけ、オンラインもくもく会を主催。
+-#                           1人1人とコミュニケーションの時間を取りたい
+-#                           と考えたので少人数で開催しました。
+-#                           <span class="point__message__accent">人に教える経験を積むことで学びが深まりました！</span>
+-#                         </p>
+-#                       </div>
+-#                     </div>
+-#                   </div>
+-#                 </div>
+-#               </div>
+-#               <div class="target" id="others__3"></div>
+-#               <div class="content others3">
+-#                 <h3 class="others__title">LT大会 & 登壇</h3>
+-#                 <div class="others__detail">
+-#                   <div class="others__detail__left">
+-#                     <a class="popup" href="image/image7.png">
+-#                       <img src="image/image7.png"alt="">
+-#                     </a>
+-#                   </div>
+-#                   <div class="others__detail__right">
+-#                     <h4><i class="fas fa-chalkboard"></i> 概要</h4>
+-#                     <p>LT大会を主催し「共同開発」の経験について発表。</p>
+-#                     <div class="point__message">
+-#                       <h4><i class="fas fa-hand-point-right"></i> こだわりポイント</h4>
+-#                       <p class="for__pc">実際に共同開発した経験から学んだことを発表しました。
+-#                         <span class="point__message__accent">Gitの扱いなど、技術的なこと以上にメンバーとの
+-#                         コミュニケーションや設計の大切さ</span>を痛感したので、
+-#                         そのことについて登壇して話しました。
+-#                       </p>
+-#                       <p class="for__response">実際に共同開発した経験から学んだことを発表しました。
+-#                         <span class="point__message__accent">Gitの扱いなど、技術的なこと以上にメンバーとの
+-#                         コミュニケーションや設計の大切さ</span>を痛感したので、
+-#                         そのことについて登壇して話しました。
+-#                       </p>
+-#                     </div>
+-#                   </div>
+-#                 </div>
+-#               </div>
+-#               <div class="target" id="others__4"></div>
+-#               <div class="content others4">
+-#                 <h3 class="others__title">ポートフォリオ品評会</h3>
+-#                 <div class="others__detail">
+-#                   <div class="others__detail__left">
+-#                   <!-- カルーセル開始 -->
+-#                     <div class="carousel__wrapper">
+-#                       <div class="carousel">
+-#                         <ul class="slides slides3">
+-#                           <li><a class="popup memory__3" href="image/image40.png"><img src="image/image40.png"alt=""></a></li>
+-#                           <li><a class="popup" href="image/image41.png"><img src="image/image41.png"alt=""></a></li>
+-#                           <li><a class="popup" href="image/image42.png"><img src="image/image42.png"alt=""></a></li>
+-#                           <li><a class="popup" href="image/image43.png"><img src="image/image43.png"alt=""></a></li>
+-#                         </ul>
+-#                       </div>
+-#                       <a href="#" class="carousel-control carousel-control-prev prev3">&lt;</a>
+-#                       <div class="slide__number">
+-#                         <span class="number__now3"></span>
+-#                         <span class="number__center">／</span>
+-#                         <span class="number3"></span>
+-#                       </div>
+-#                       <a href="#" class="carousel-control carousel-control-next next3">&gt;</a>
+-#                     </div>
+-#                     <!-- カルーセル終了 -->
+-#                   </div>
+-#                   <div class="others__detail__right">
+-#                     <h4><i class="fas fa-chalkboard"></i> 概要</h4>
+-#                     <p>自作のポートフォリオを出品し品評会を主催しました。<br>
+-#                     </p>
+-#                     <div class="point__message">
+-#                       <h4><i class="fas fa-hand-point-right"></i> こだわりポイント</h4>
+-#                       <p class="for__pc">
+-#                         参加者にポートフォリオアプリを使ってもらい改善点等、
+-#                         <span class="point__message__accent">実際にユーザー からフィードバックが得られるイベント</span>に
+-#                         しました。また、現役エンジニアの方にもお願いし、現役目線での改善点や意見をもらえる場にしました。
+-#                       </p>
+-#                       <p class="for__response">
+-#                         参加者にポートフォリオアプリを使ってもらい改善点等、
+-#                         <span class="point__message__accent">実際にユーザーからフィードバックが得られるイベント</span>にしました。
+-#                         また、現役エンジニアの方にもお願いし、現役目線での改善点や
+-#                         意見をもらえる場にしました。
+-#                       </p>
+-#                   </div>
+-#                   </div>
+-#                 </div>
+-#               </div>
+-#               <div class="target" id="others__5"></div>
+-#               <div class="content others5">
+-#                 <h3  class="others__title">拡張機能プレゼン大会</h3>
+-#                 <div class="others__detail">
+-#                   <div class="others__detail__left">
+-#                     <iframe src="https://www.youtube.com/embed/54uwl_GYduw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+-#                     allowfullscreen></iframe>
+-#                   </div>
+-#                   <div class="others__detail__right">　
+-#                     <h4><i class="fas fa-chalkboard"></i> 概要</h4>
+-#                     <p>拡張機能や便利アプリのプレゼン大会を主催。</p>
+-#                     <div class="point__message">
+-#                       <h4><i class="fas fa-hand-point-right"></i> こだわりポイント</h4>
+-#                       <p class="for__pc">現役エンジニアの方が実務でよく使う<span class="point__message__accent">拡張機能や
+-#                         アプリを実演しながら紹介するイベント</span>を開催しました。
+-#                         実演している様子を見てもらうことでプログラミング学習
+-#                         初期の参加者にも分かりやすく紹介出来たと思います。
+-#                         私も作業効率化用ツールを2つ紹介し、好評を頂きました。
+-#                       </p>
+-#                       <p class="for__response">現役エンジニアの方が実務でよく使う<span class="point__message__accent">拡張機能や
+-#                         アプリを実演しながら紹介するイベント</span>を開催しました。
+-#                         実演している様子を見てもらうことでプログラミング学習初期の
+-#                         参加者にも分かりやすく紹介出来たと思います。
+-#                         私も作業効率化のツールを2つ紹介し、好評を頂きました。
+-#                       </p>
+-#                     </div>
+-#                   </div>
+-#                 </div>
+-#               </div>
+-#             </div>
+-#           </section>
+-#           <!-- 趣味 -->
+-#           <section id="hobby" class="box animated animated animated parallax-section parallax-section-5">
+-#             <div class="content__wrapper">
+-#               <h2><span>Hobby</span></h2>
+-#               <div class="target" id="hobby__1"></div>
+-#               <div class="content hobby">
+-#                 <h3 class="hobby__title">デザイン</h3>
+-#                 <div class="hobby__detail">
+-#                   <div class="hobby__detail__left">
+-#                     <!-- カルーセル開始 -->
+-#                     <div class="carousel__wrapper">
+-#                       <div class="carousel">
+-#                         <ul class="slides slides4">
+-#                           <li><a class="popup memory__4" href="image/image5.jpg">
+-#                             <img src="image/image5.jpg"alt="">
+-#                           </a></li>
+-#                           <li><a class="popup" href="image/image30.jpg"><img src="image/image30.jpg"alt=""></a></li>
+-#                         </ul>
+-#                       </div>
+-#                       <a href="#" class="carousel-control carousel-control-prev prev4">&lt;</a>
+-#                       <div class="slide__number">
+-#                         <span class="number__now4"></span>
+-#                         <span class="number__center">／</span>
+-#                         <span class="number4"></span>
+-#                       </div>
+-#                       <a href="#" class="carousel-control carousel-control-next next4">&gt;</a>
+-#                     </div>
+-#                     <!-- カルーセル終了 -->
+-#                   </div>
+-#                   <div class="hobby__detail__right">
+-#                     <h4><i class="fas fa-chalkboard"></i> 概要</h4>
+-#                     <p>PhotoshopやXDを活用した制作物です</p>
+-#                     <div class="point__message">
+-#                       <h4 class="point__message"><i class="fas fa-hand-point-right"></i> こだわりポイント</h4>
+-#                       <div class="for__pc">
+-#                         <p>共同開発のためにXDの使い方を学びワイヤーフレームを設計しました。
+-#                           またPhotoshopを用いてYoutubeのサムネイル制作にも挑戦し、
+-#                           色彩の使い方や見せ方について学ぶ機会にもなりました！
+-#                           <span class="point__message__accent">見た目が印象を左右するデザインの重要性と奥深さを学びました。</span>
+-#                         </p>
+-#                       </div>
+-#                       <div class="for__response">
+-#                         <p>共同開発のためにXDの使い方を学びワイヤーフレームを設計しました。
+-#                           またPhotoshopを用いてYoutubeのサムネイル制作にも挑戦し、
+-#                           色彩の使い方や見せ方について学ぶ機会にもなりました！
+-#                           <span class="point__message__accent">見た目が印象を左右するデザインの重要性と奥深さを学びました。</span>
+-#                         </p>
+-#                       </div>
+-#                     </div>
+-#                   </div>
+-#                 </div>
+-#               </div>
+-#               <div class="target" id="hobby__2"></div>
+-#               <div class="content hobby">
+-#                 <h3 class="hobby__title">写真撮影</h3>
+-#                 <div class="hobby__detail">
+-#                   <div class="hobby__detail__left">
+-#                     <!-- カルーセル開始 -->
+-#                     <div class="carousel__wrapper">
+-#                       <div class="carousel">
+-#                         <ul class="slides slides5">
+-#                           <li><a class="popup memory__5" href="image/image20.png">
+-#                             <img src="image/image20.png"alt="">
+-#                           </a></li>
+-#                           <li><a class="popup" href="image/image21.png"><img src="image/image21.png"alt=""></a></li>
+-#                           <li><a class="popup" href="image/image24.png"><img src="image/image24.png"alt=""></a></li>
+-#                         </ul>
+-#                       </div>
+-#                       <a href="#" class="carousel-control carousel-control-prev prev5">&lt;</a>
+-#                       <div class="slide__number">
+-#                         <span class="number__now5"></span>
+-#                         <span class="number__center">／</span>
+-#                         <span class="number5"></span>
+-#                       </div>
+-#                       <a href="#" class="carousel-control carousel-control-next next5">&gt;</a>
+-#                     </div>
+-#                     <!-- カルーセル終了 -->
+-#                   </div>
+-#                   <div class="hobby__detail__right">
+-#                     <h4><i class="fas fa-chalkboard"></i> 概要</h4>
+-#                     <p>家族写真や風景写真を撮影しています</p>
+-#                     <div class="point__message">
+-#                       <h4 class="point__message"><i class="fas fa-hand-point-right"></i> こだわりポイント</h4>
+-#                       <div class="for__pc">
+-#                         <p>友人の結婚式や家族写真を撮影することが趣味です。
+-#                           会社のレクリエーションでもカメラ係として
+-#                           前職でも本業より(?)活躍していました！
+-#                           「カメラの使い方を教えてほしい」との
+-#                           <span class="point__message__accent">友人の声をヒントに個人開発のアプリを作成できました！</span>
+-#                         </p>
+-#                       </div>
+-#                       <div class="for__response">
+-#                         <p>友人の結婚式や家族写真を撮影することが趣味です。
+-#                           会社のレクリエーションでもカメラ係として
+-#                           前職でも本業より(?)活躍していました！
+-#                           「カメラの使い方を教えてほしい」との
+-#                           <span class="point__message__accent">友人の声をヒントに個人開発のアプリを作成できました！</span>
+-#                         </p>
+-#                       </div>
+-#                     </div>
+-#                   </div>
+-#                 </div>
+-#               </div>
+-#               <div class="target" id="hobby__3"></div>
+-#               <div class="content hobby">
+-#                 <h3 class="hobby__title">動画編集</h3>
+-#                 <div class="hobby__detail">
+-#                   <div class="hobby__detail__left">
+-#                     <iframe width="560" height="315" src="https://www.youtube.com/embed/EaNfjGzyWiI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-#                   </div>
+-#                   <div class="hobby__detail__right">
+-#                     <h4><i class="fas fa-chalkboard"></i> 概要</h4>
+-#                     <p>知人のYoutubeの動画編集を担当しました</p>
+-#                     <div class="point__message">
+-#                       <h4><i class="fas fa-hand-point-right"></i> こだわりポイント</h4>
+-#                       <p class="for__pc">これまで10本以上の動画を編集してきました！チャンネル登録者数はまだ100人弱ですが
+-#                         <span class="point__message__accent">総再生回数は10000回を突破しました！</span>
+-#                         結婚式のムービーや二次会の映像を撮影編集して人に喜んでもらうこともできました^^
+-#                       </p>
+-#                       <p class="for__response">これまで10本以上の動画を編集してきました！チャンネル登録者数はまだ100人弱ですが
+-#                         <span class="point__message__accent">総再生回数は10000回を突破しました！</span>
+-#                         結婚式のムービーや二次会の映像を撮影編集して人に喜んでもらうこともできました^^
+-#                       </p>
+-#                     </div>
+-#                   </div>
+-#                 </div>
+-#               </div>
+-#             </div>
+-#           </section>
+-#       </div>
+-#       <!-- 再度メニュー開始 -->
+-#       <div class="side__content">
+-#         <div class="side__menu">
+-#           <div class="side__menu__title">
+-#             <h2>menu</h2>
+-#           </div>
+-#           <div class="side__list__wrapper">
+-#             <ul>
+-#               <li><a class="gosection" href="#top">Top</a></li>
+-#               <li><a class="gosection" href="#profile">Profile</a></li>
+-#               <ul>
+-#                 <li><a class="gosection" href="#profile__1">高校時代</a></li>
+-#                 <li><a class="gosection" href="#profile__2">企業内訓練校</a></li>
+-#                 <li><a class="gosection" href="#profile__3">配属後</a></li>
+-#               </ul>
+-#               <li><a class="gosection" href="#vision">Vision</a></li>
+-#               <ul>
+-#                 <li><a class="gosection" href="#skill__1">なぜエンジニアになりたいのか</a></li>
+-#                 <li><a class="gosection" href="#skill__2">フロントエンドを目指す理由</a></li>
+-#                 <li><a class="gosection" href="#skill__3">1年後の姿</a></li>
+-#                 <li><a class="gosection" href="#skill__4">3年後の姿</a></li>
+-#               </ul>
+-#               <li><a class="gosection" href="#skills">Skills</a></li>
+-#               <li><a class="gosection" href="#portfolio">Portfolio</a></li>
+-#               <ul>
+-#                 <li><a class="gosection" href="#portfolio__1">共同開発アプリ</a></li>
+-#                 <li><a class="gosection" href="#portfolio__2">個人開発アプリ</a></li>
+-#               </ul>
+-#               <li><a class="gosection" href="#others">Others</a></li>
+-#                 <ul>
+-#                   <li><a class="gosection" href="#others__0">Qiita執筆</a></li>
+-#                   <li><a class="gosection" href="#others__1">もくもく会</a></li>
+-#                   <li><a class="gosection" href="#others__2">オンラインもくもく会</a></li>
+-#                   <li><a class="gosection" href="#others__3">LT大会 & 登壇</a></li>
+-#                   <li><a class="gosection" href="#others__4">ポートフォリオ品評会</a></li>
+-#                   <li><a class="gosection" href="#others__5">拡張機能プレゼン大会</a></li>
+-#                 </ul>
+-#               <li><a class="gosection" href="#hobby">Hobby</a></li>
+-#               <ul>
+-#                 <li><a class="gosection" href="#hobby__1">デザイン</a></li>
+-#                 <li><a class="gosection" href="#hobby__2">写真撮影</a></li>
+-#                 <li><a class="gosection" href="#hobby__3">動画編集</a></li>
+-#               </ul>
+-#             </ul>
+-#           </div>
+-#         </div>
+-#       </div>
+-#       <!-- サイドメニュー終了 -->
+-#       <a href="#" class="back-to-top">▲</a>
+-#     </div>
+-#   </div>
+-#   </body>
+-# </html>
+-#  %>

@@ -1,0 +1,10 @@
+@import "posts";
+@import "index";
+@import "left";
+@import "main";
+@import "right";
+
+.navbar-nav.mr-auto {
+  display: flex;
+  justify-content: space-between;
+}
