@@ -1,6 +1,15 @@
-.left
+.left__content
   .image
     = image_tag 'profile_face_image.jpg', size: "300x300"
+  .myinfo
+    %p.myname
+      名前：高橋 直太
+    %p.age
+      年齢：31歳
+    %p.birthplace
+      出身地：千葉県
+    %p.food
+      好きな食べ物：ケバブ
   .icons
     .twitter
       = link_to "https://twitter.com/naota7118", method: :get do

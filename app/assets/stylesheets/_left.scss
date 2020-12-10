@@ -1,8 +1,5 @@
-.left {
-  .icons {
-    display: flex;
-    text-align: center;
-  }
+.left__content {
+  position: fixed;
   img {
     border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
     width:  180px;       /* ※縦横を同値に */
@@ -10,5 +7,18 @@
   }
   .image {
     padding: 10px;
+  }
+  .myinfo {
+    color: white;
+  }
+  .icons {
+    display: flex;
+    text-align: center;
+    .fa-2x {
+      margin-left: 30px;
+    }
+    i.fa {
+      color: white;
+    }
   }
 }
