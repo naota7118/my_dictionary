@@ -10,6 +10,11 @@
   /*縦方向はスクロール可*/
   overflow-x: hidden;
   /*横方向はスクロール不可*/
+  img {
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  180px;       /* ※縦横を同値に */
+    height: 180px;       /* ※縦横を同値に */
+  }
   .profile {
     .name {
       text-align: center;
