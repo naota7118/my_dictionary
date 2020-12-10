@@ -10,10 +10,15 @@
 
   %body
     %header.header.black-sm
+      #stars
+      #stars2
+      #stars3
       %nav.navbar.fixed-top.navbar-expand
         .collapse.navbar-collapse{ id: "navbarSupportedContent"}
-          %ul.navbar-nav.mr-auto{ class: 'navbar'}
-            %a.name Naota Takahashi
+          %ul.navbar-nav.mr-auto{ class: 'navbar__name'}
+            %li.nav-item
+              %a.name Naota Takahashi's Portfolio
+          %ul.navbar-nav{ class: 'navbar'}
             %li.nav-item
               = link_to 'Profile', "#profile", class: 'gosection'
             %li.nav-item
