@@ -1,4 +1,17 @@
-// .col-sm-2.right {
-//   // background-color: #666666;
-//   // height: 100vh;
-// }
+.side__content {
+  // position: fixed;
+  .side__menu {
+    .side__menu__title {
+      text-align: center;
+      color: white;
+    }
+    .side__liset__wrapper {
+      li {
+        list-style: none;
+      }
+      .gosection {
+        margin: 0;
+      }
+    }
+  }
+}

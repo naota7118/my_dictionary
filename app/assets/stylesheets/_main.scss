@@ -4,13 +4,6 @@
 .main {
   padding: 10px;
   section {
-    // margin-top: 55px;
-    z-index: 5;
-    overflow-y: scroll;
-    height: 100vh;
-    /*縦方向はスクロール可*/
-    overflow-x: hidden;
-    /*横方向はスクロール不可*/
     #profile {
       .name {
         text-align: center;
