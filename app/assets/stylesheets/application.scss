@@ -14,18 +14,18 @@ nav {
   z-index: 2;
   box-shadow: 0 0 8px #353535;
   background-color: #3d3d3e;
+  font-weight: bold;
   .navbar-nav.mr-auto {
     display: flex;
     justify-content: space-between;
+    color: white;
     .name {
       color: white;
     }
   }
 }
 
-
-
-
 .gosection {
   margin-left: 50px;
+  color: white;
 }

@@ -3,60 +3,265 @@
 }
 
 .main {
-  margin-top: 55px;
-  z-index: 0;
-  // background-color: black;
+  // margin-top: 55px;
+  z-index: 5;
+  overflow-y: scroll;
+  height: 100vh;
+  /*縦方向はスクロール可*/
+  overflow-x: hidden;
+  /*横方向はスクロール不可*/
+  .profile {
+    .name {
+      text-align: center;
+      h2 {
+        position: relative;
+        display: inline-block;
+        padding: 0 65px;
+        text-align: center;
+        color: #ffffff;
+      }
+      h2:before,
+      h2:after {
+        position: absolute;
+        top: calc(50% - 3px);
+        width: 50px;
+        height: 6px;
+        content: '';
+        border-top: solid 2px #ffffff;
+        border-bottom: solid 2px #ffffff;
+      }
+      h2:before {
+        left: 0;
+      }
+      h2:after {
+        right: 0;
+      }
+    }
+    .box2 {
+      padding: 0.5em 1em;
+        margin: 2em 0;
+        font-weight: bold;
+        color: #6091d3;/*文字色*/
+        background: #FFF;
+        border: solid 3px #6091d3;/*線*/
+        border-radius: 10px;/*角の丸み*/
+    }
+    
+    .box2 p {
+      margin: 0; 
+      padding: 0;
+    }
+  }
+  .vision {
+    .name {
+      text-align: center;
+      h2 {
+        position: relative;
+        display: inline-block;
+        padding: 0 65px;
+        text-align: center;
+        color: #ffffff;
+      }
+      h2:before,
+      h2:after {
+        position: absolute;
+        top: calc(50% - 3px);
+        width: 50px;
+        height: 6px;
+        content: '';
+        border-top: solid 2px #ffffff;
+        border-bottom: solid 2px #ffffff;
+      }
+      h2:before {
+        left: 0;
+      }
+      h2:after {
+        right: 0;
+      }
+    }
+    .box2 {
+      padding: 0.5em 1em;
+        margin: 2em 0;
+        font-weight: bold;
+        color: #6091d3;/*文字色*/
+        background: #FFF;
+        border: solid 3px #6091d3;/*線*/
+        border-radius: 10px;/*角の丸み*/
+    }
+    
+    .box2 p {
+      margin: 0; 
+      padding: 0;
+    }
+  }
+  .skill {
+    .name {
+      text-align: center;
+      h2 {
+        position: relative;
+        display: inline-block;
+        padding: 0 65px;
+        text-align: center;
+        color: #ffffff;
+      }
+      h2:before,
+      h2:after {
+        position: absolute;
+        top: calc(50% - 3px);
+        width: 50px;
+        height: 6px;
+        content: '';
+        border-top: solid 2px #ffffff;
+        border-bottom: solid 2px #ffffff;
+      }
+      h2:before {
+        left: 0;
+      }
+      h2:after {
+        right: 0;
+      }
+    }
+    .box2 {
+      padding: 0.5em 1em;
+        margin: 2em 0;
+        font-weight: bold;
+        color: #6091d3;/*文字色*/
+        background: #FFF;
+        border: solid 3px #6091d3;/*線*/
+        border-radius: 10px;/*角の丸み*/
+    }
+    
+    .box2 p {
+      margin: 0; 
+      padding: 0;
+    }
+  }
+  .portfolio {
+    .name {
+      text-align: center;
+      h2 {
+        position: relative;
+        display: inline-block;
+        padding: 0 65px;
+        text-align: center;
+        color: #ffffff;
+      }
+      h2:before,
+      h2:after {
+        position: absolute;
+        top: calc(50% - 3px);
+        width: 50px;
+        height: 6px;
+        content: '';
+        border-top: solid 2px #ffffff;
+        border-bottom: solid 2px #ffffff;
+      }
+      h2:before {
+        left: 0;
+      }
+      h2:after {
+        right: 0;
+      }
+    }
+    .box2 {
+      padding: 0.5em 1em;
+        margin: 2em 0;
+        font-weight: bold;
+        color: #6091d3;/*文字色*/
+        background: #FFF;
+        border: solid 3px #6091d3;/*線*/
+        border-radius: 10px;/*角の丸み*/
+    }  
+    .box2 p {
+      margin: 0; 
+      padding: 0;
+    }
+  }
+  .others {
+    .name {
+      text-align: center;
+      h2 {
+        position: relative;
+        display: inline-block;
+        padding: 0 65px;
+        text-align: center;
+        color: #ffffff;
+      }
+      h2:before,
+      h2:after {
+        position: absolute;
+        top: calc(50% - 3px);
+        width: 50px;
+        height: 6px;
+        content: '';
+        border-top: solid 2px #ffffff;
+        border-bottom: solid 2px #ffffff;
+      }
+      h2:before {
+        left: 0;
+      }
+      h2:after {
+        right: 0;
+      }
+    }
+    .box2 {
+      padding: 0.5em 1em;
+        margin: 2em 0;
+        font-weight: bold;
+        color: #6091d3;/*文字色*/
+        background: #FFF;
+        border: solid 3px #6091d3;/*線*/
+        border-radius: 10px;/*角の丸み*/
+    }  
+    .box2 p {
+      margin: 0; 
+      padding: 0;
+    }
+  }
+  .hobby {
+    .name {
+      text-align: center;
+      h2 {
+        position: relative;
+        display: inline-block;
+        padding: 0 65px;
+        text-align: center;
+        color: #ffffff;
+      }
+      h2:before,
+      h2:after {
+        position: absolute;
+        top: calc(50% - 3px);
+        width: 50px;
+        height: 6px;
+        content: '';
+        border-top: solid 2px #ffffff;
+        border-bottom: solid 2px #ffffff;
+      }
+      h2:before {
+        left: 0;
+      }
+      h2:after {
+        right: 0;
+      }
+    }
+    .box2 {
+      padding: 0.5em 1em;
+        margin: 2em 0;
+        font-weight: bold;
+        color: #6091d3;/*文字色*/
+        background: #FFF;
+        border: solid 3px #6091d3;/*線*/
+        border-radius: 10px;/*角の丸み*/
+    }  
+    .box2 p {
+      margin: 0; 
+      padding: 0;
+    }
+  }
 }
 
-.box2 {
-  padding: 0.5em 1em;
-    margin: 2em 0;
-    font-weight: bold;
-    color: #6091d3;/*文字色*/
-    background: #FFF;
-    border: solid 3px #6091d3;/*線*/
-    border-radius: 10px;/*角の丸み*/
-}
 
-.box2 p {
-  margin: 0; 
-  padding: 0;
-}
-
-
-h2 {
-  padding: 1rem 2rem;
-  border-top: 3px solid #000;
-  border-bottom: 3px solid #000;
-}
-
-
-
-h3 {
-  position: relative;
-  display: inline-block;
-  padding: 0 65px;
-  text-align: center;
-}
-
-h3:before,
-h3:after {
-  position: absolute;
-  top: calc(50% - 3px);
-  width: 50px;
-  height: 6px;
-  content: '';
-  border-top: solid 2px #000;
-  border-bottom: solid 2px #000;
-}
-
-h3:before {
-  left: 0;
-}
-
-h3:after {
-  right: 0;
-}
 
 
 body {
