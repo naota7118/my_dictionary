@@ -1,3 +1,5 @@
+%link(rel="stylesheet" type="text/css" href="css/click.scss")
+%script(type="text/javascript" src="js/slick.js")
 .main
   %section.profile
     #profile
@@ -134,7 +136,8 @@
       .box2
         筋トレ
         %ul.slider
-          = image_tag '8_22_body.jpg', size: "300x300"
+          %li
+            = image_tag '8_22_body.jpg', size: "300x300"
           %li
             = image_tag '8_29_body.jpg', size: "300x300"
           %li
@@ -143,22 +146,15 @@
             = image_tag '10_26_body.JPG', size: "300x300"
           %li
             = image_tag '11_4_body.JPG', size: "300x300"
+        :javascript
+          $(function(){
+            $('.slider').slick({
+              autoplay: true, //自動再生
+              dots: true, //ドットのナビゲーションを表示
+              infinite: true, //スライドのループ有効化
+              speed: 1000, //切り替えのスピード（小さくすると速くなる）
+              fade: true, //フェードの有効化
+            });
+          });
       .music
         = audio_tag("test.mp3", id: 'audio', autoplay: true, controls: true)
-
-:javascript
-  $('.slider-for').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    fade: true,
-    asNavFor: '.slider-nav'
-  });
-  $('.slider-nav').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    asNavFor: '.slider-for',
-    dots: true,
-    centerMode: true,
-    focusOnSelect: true
-  });
