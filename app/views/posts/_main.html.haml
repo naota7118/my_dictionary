@@ -110,25 +110,21 @@
                   工夫した点：Chart.jsを用いたグラフ機能の実装で、どのようにデータを取得しグラフで表示するか自分で考えてcharts_controller.rbのコードを書いたところ。
                   %p
                     難しかった点：AWSへのデプロイでたくさんのエラーに直面しました。自力でエラーを解決していくことで自走力が身につきました。
-        .portfolio__qiita
-          = link_to "https://qiita.com/naota7118/items/d641eae70dd65412a00b", method: :get do
-            ポートフォリオの説明Qiita記事（165Contribution頂きました!!）
-        %br
-        .portfolio__youtube
-          = link_to "https://youtu.be/OukAs52n-Pc", method: :get do
-            ポートフォリオの説明YouTube動画
-        .youtube-container
-          %iframe{width:"560", height:"315", src:"https://www.youtube.com/embed/OukAs52n-Pc", frameborder:"0" }
-  %br
-  %section
-    #others
-      .name
-        %h2
-          実績
-      .box2
-        Qiita執筆　概要　こだわりポイント
-        面接練習会の主催
-        ポートフォリオ説明YouTube動画
+        .balloon5
+          .faceicon
+            = image_tag 'profile_face_image.jpg'
+          .chatting
+            .says
+              %p
+                = link_to "https://qiita.com/naota7118/items/d641eae70dd65412a00b", method: :get do
+                  ポートフォリオを説明するQiita記事
+                を書いたところ165Contribution頂くことができました!!
+        .youtube
+          .portfolio__youtube
+            = link_to "https://youtu.be/OukAs52n-Pc", method: :get do
+              ポートフォリオの説明YouTube動画
+          .youtube-container
+            %iframe{width:"560", height:"315", src:"https://www.youtube.com/embed/OukAs52n-Pc", frameborder:"0" }
   %br
   %section
     #hobby
