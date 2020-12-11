@@ -94,10 +94,26 @@
         %h2
           ポートフォリオ
       .box2
-        ポートフォリオ
+        %p
+          = link_to "https://pfcmaster.work/", method: :get do
+            アプリのURL：https://pfcmaster.work/
+          %p
+            = link_to "https://github.com/naota7118/", method: :get do
+              GitHubのURL：https://github.com/naota7118
+          %br
+            %p
+              開発した目的：「減量が続かない」という自分自身の悩みを解決するため。
+              %p
+                用途や機能：体重と体脂肪率から目安カロリーを自動計算する機能をjQeryで実装。摂取カロリーと体重の推移をグラフで表示する機能をChart.jsで実装。
+              %br
+                %p
+                  工夫した点：Chart.jsを用いたグラフ機能の実装で、どのようにデータを取得しグラフで表示するか自分で考えてcharts_controller.rbのコードを書いたところ。
+                  %p
+                    難しかった点：AWSへのデプロイでたくさんのエラーに直面しました。自力でエラーを解決していくことで自走力が身につきました。
         .portfolio__qiita
           = link_to "https://qiita.com/naota7118/items/d641eae70dd65412a00b", method: :get do
-            ポートフォリオの説明Qiita記事
+            ポートフォリオの説明Qiita記事（165Contribution頂きました!!）
+        %br
         .portfolio__youtube
           = link_to "https://youtu.be/OukAs52n-Pc", method: :get do
             ポートフォリオの説明YouTube動画
