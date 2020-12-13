@@ -3,9 +3,27 @@
 }
 .main {
   padding: 10px;
+  section.sentence {
+    padding: 10px;
+    text-align: center;
+    .box2 {
+      padding: 0.5em 1em;
+      margin: 2em 0;
+      font-weight: bold;
+      color: red;/*文字色*/
+      background: #FFF;
+      border: solid 3px #6091d3;/*線*/
+      border-radius: 10px;/*角の丸み*/
+      opacity: 0.9;
+    }
+    .box2 p {
+      margin: 0; 
+      padding: 0;
+    }
+  }
   section {
     padding: 10px;
-    #profile {
+    .profile__box {
       .name {
         text-align: center;
         h2 {
@@ -129,6 +147,16 @@
       .box2 p {
         margin: 0; 
         padding: 0;
+      }
+      .box3 {
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        background: #f0f7ff;
+        border: dashed 2px #5b8bd0;/*点線*/
+      }
+      .box3 p {
+          margin: 0; 
+          padding: 0;
       }
     }
   }
