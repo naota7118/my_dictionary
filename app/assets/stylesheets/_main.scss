@@ -21,7 +21,7 @@
       padding: 0;
     }
   }
-  section {
+  section#profile {
     padding: 10px;
     .profile__box {
       .name {
@@ -67,7 +67,7 @@
     }
   }
   section {
-    #vision {
+    #vision, #vision__1, #vision__2, #vision__3 {
       .name {
         text-align: center;
         h2 {
@@ -205,7 +205,7 @@
     }
   }
   section {
-    #portfolio {
+    #portfolio, #portfolio__1 {
       .name {
         text-align: center;
         h2 {
