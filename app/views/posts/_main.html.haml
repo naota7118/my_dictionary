@@ -217,4 +217,5 @@
               ポートフォリオの説明YouTube動画
           .youtube-container
             %iframe{width:"560", height:"315", src:"https://www.youtube.com/embed/OukAs52n-Pc", frameborder:"0" }
-  .music= audio_tag("test.mp3", id: 'audio', autoplay: true, controls: true)
+  .music
+    = audio_tag("test.mp3", id: 'audio', autoplay: true, controls: true)
