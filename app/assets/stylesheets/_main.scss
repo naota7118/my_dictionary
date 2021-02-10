@@ -3,9 +3,8 @@
 }
 .main {
   padding: 10px;
-  section.sentence {
+  section.head {
     padding: 10px;
-    // text-align: center;
     .box2 {
       padding: 0.5em 1em;
       margin: 2em 0;
@@ -21,7 +20,7 @@
       padding: 0;
     }
   }
-  section#blog_start_reason {
+  section {
     padding: 10px;
     .profile__box {
       .name {
@@ -66,7 +65,7 @@
       }
     }
   }
-  section#blog_scheme {
+  section {
     padding: 10px;
     .profile__box {
       .name {
