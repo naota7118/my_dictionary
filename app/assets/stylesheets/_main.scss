@@ -96,50 +96,6 @@
       }
       .box2 {
         padding: 0.5em 1em;
-          margin: 2em 0;
-          font-weight: bold;
-          color: #6091d3;/*文字色*/
-          background: #FFF;
-          border: solid 3px #6091d3;/*線*/
-          border-radius: 10px;/*角の丸み*/
-          opacity: 0.9;
-      }
-      .box2 p {
-        margin: 0; 
-        padding: 0;
-      }
-    }
-  }
-  section {
-    #vision, #vision__1, #vision__2, #vision__3 {
-      .name {
-        text-align: center;
-        h2 {
-          position: relative;
-          display: inline-block;
-          padding: 0 65px;
-          text-align: center;
-          color: #ffffff;
-        }
-        h2:before,
-        h2:after {
-          position: absolute;
-          top: calc(50% - 3px);
-          width: 50px;
-          height: 6px;
-          content: '';
-          border-top: solid 2px #ffffff;
-          border-bottom: solid 2px #ffffff;
-        }
-        h2:before {
-          left: 0;
-        }
-        h2:after {
-          right: 0;
-        }
-      }
-      .box2 {
-        padding: 0.5em 1em;
         margin: 2em 0;
         font-weight: bold;
         color: #6091d3;/*文字色*/
@@ -191,16 +147,6 @@
       .box2 p {
         margin: 0; 
         padding: 0;
-      }
-      .box3 {
-        padding: 0.5em 1em;
-        margin: 2em 0;
-        background: #f0f7ff;
-        border: dashed 2px #5b8bd0;/*点線*/
-      }
-      .box3 p {
-          margin: 0; 
-          padding: 0;
       }
     }
   }
