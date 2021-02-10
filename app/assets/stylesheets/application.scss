@@ -20,13 +20,10 @@ nav {
     display: flex;
     justify-content: space-between;
     color: white;
+    margin: 5px 0;
     .name {
       color: white;
+      font-size: x-large;
     }
   }
-}
-
-.gosection {
-  margin-left: 50px;
-  color: white;
 }
