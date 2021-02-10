@@ -46,9 +46,12 @@
           .chatting
             .says
               %p
-                結果が数字という目に見える形で表れるところが魅力的で、転職した方が今まで以上に頑張れると思いました。アフィリエイトブログや筋トレで目標の数字を達成した時や、達成するために日々考えて行動することが楽しかったことからそう思いました。
+                ２つの理由から転職したいと考えました。
         %p
-          また、前職では話を聞いてアドバイスをしても、実際にやるかどうかはご本人次第で自分は手を動かせないことがもどかしいと感じていました。アフィリエイトブログで自分で記事を書いたりアイキャッチ画像を作成したりと手を動かすのが楽しく感じたことから、そういったことを仕事にしたいと思いました。
+          結果が数字という目に見える形で表れる仕事がしたいと思いました。アフィリエイトブログや筋トレで目標の数字を達成した時や、達成するために日々考えて行動することが楽しかったことからそう考えました。
+        %br
+        %p
+          また、自分で手を動かす仕事がしたいと思いました。前職では話を聞いてアドバイスするところまでだったのに対し、アフィリエイトブログでは自分で記事を書いたりアイキャッチ画像を作成したりと手を動かすのが楽しく、そういったことを仕事にしたいと思いました。
       .name
         %h2
           キャリアプラン
@@ -98,34 +101,32 @@
     #portfolio#portfolio__1
       .name
         %h2
-          ポートフォリオ
+          実績・制作物
       .box2
+        %P
+          ポートフォリオサイト
+          = link_to "https://mydictionary7118.herokuapp.com/", method: :get do
+            https://mydictionary7118.herokuapp.com/
+        %P
+          アフィリエイトブログ：
+          = link_to "https://bibirihealthy.com/", method: :get do
+            https://github.com/naota7118
         %p
+          オリジナルアプリ：
           = link_to "https://pfcmaster.work/", method: :get do
-            アプリのURL：https://pfcmaster.work/
-          %p
-            = link_to "https://github.com/naota7118/", method: :get do
-              GitHubのURL：https://github.com/naota7118
-          %br
-            %p
-              アプリ概要：減量したい方のためのカロリー記録アプリ。
-            %p
-              開発した目的：「減量が続かない」という自分自身の悩みを解決するため。
-            %p
-              こだわりポイント①：体重と体脂肪率から目安カロリーを自動計算する機能をjQeryで実装。
-            %p
-              こだわりポイント②：摂取カロリーと体重の推移をグラフで表示する機能をChart.jsで実装。
-            %br
-            %p
-              苦労した点①：Chart.jsを用いたグラフ機能の実装で、どのようにデータを取得しグラフで表示するか自分で考えてcharts_controller.rbのコードを書いたところ。
-            %p
-              苦労した点②：AWSへのデプロイでたくさんのエラーに直面しました。自力でエラーを解決していくことで自走力が身につきました。
+            https://pfcmaster.work/
+        %p
+          GitHub：
+          = link_to "https://github.com/naota7118/", method: :get do
+            https://github.com/naota7118
+        %p
+          Qiita：
+          = link_to "https://qiita.com/naota7118", method: :get do
+            https://qiita.com/naota7118
         .balloon5
           .faceicon
             = image_tag 'profile_face_image.jpg'
           .chatting
             .says
               %p
-                = link_to "https://qiita.com/naota7118/items/d641eae70dd65412a00b", method: :get do
-                  ポートフォリオを説明するQiita記事
-                を書いたところ165Contribution頂くことができました!!
+                オリジナルアプリは独学でダイエットアプリを作りました。
