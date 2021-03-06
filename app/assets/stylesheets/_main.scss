@@ -32,22 +32,6 @@
           text-align: center;
           color: #ffffff;
         }
-        h2:before,
-        h2:after {
-          position: absolute;
-          top: calc(50% - 3px);
-          width: 50px;
-          height: 6px;
-          content: '';
-          border-top: solid 2px #ffffff;
-          border-bottom: solid 2px #ffffff;
-        }
-        h2:before {
-          left: 0;
-        }
-        h2:after {
-          right: 0;
-        }
       }
       .content {
         padding: 0.5em 1em;
@@ -98,6 +82,50 @@
           margin: 0;
           padding: 0;
         }
+        // ここから右側吹き出し作るために追加した部分
+        .balloon6 {
+          width: 100%;
+          margin: 1.5em 0;
+          overflow: hidden;
+        }
+        .balloon6 .faceicon {
+          float: right;
+          margin-left: 90px;
+          width: 80px;
+        }
+        .balloon6 .faceicon img{
+          width: 100%;
+          height: auto;
+          border: solid 3px #d7ebfe;
+          border-radius: 50%;
+        }
+        .balloon6 .chatting {
+          width: 100%;
+        }
+        // ここまで右側吹き出し作るために追加した部分
+        //ここから右側吹き出しの追加設定
+        .says2 {
+          display: inline-block;
+          position: relative; 
+          margin: 5px 105px 0 0;
+          padding: 17px 13px;
+          border-radius: 12px;
+          background: #d7ebfe;
+        }
+        .says2:after {
+          content: "";
+          display: inline-block;
+          position: absolute;
+          top: 18px; 
+          right: -24px;
+          border: 12px solid transparent;
+          border-left: 12px solid #d7ebfe;
+        } 
+        .says2 p {
+          margin: 0;
+          padding: 0;
+        }
+        //ここまで右側吹き出しの追加設定
       }
       .content p {
         margin: 0; 
