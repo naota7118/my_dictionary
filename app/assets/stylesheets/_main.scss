@@ -90,7 +90,7 @@
         }
         .balloon6 .faceicon {
           float: right;
-          margin-left: 90px;
+          margin-left: -90px;
           width: 80px;
         }
         .balloon6 .faceicon img{
@@ -126,6 +126,9 @@
           padding: 0;
         }
         //ここまで右側吹き出しの追加設定
+        .answer {
+          margin-left: 360px;
+        }
       }
       .content p {
         margin: 0; 
