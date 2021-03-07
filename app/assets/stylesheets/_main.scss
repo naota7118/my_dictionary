@@ -3,16 +3,17 @@
 }
 .main {
   padding: 10px;
+  margin-bottom: 20px;
   section.head {
     padding: 10px;
     .content {
       padding: 0.5em 1em;
       margin: 2em 0;
       font-weight: bold;
-      color: red;/*文字色*/
+      color: red;
       background: #FFF;
-      border: solid 3px #6091d3;/*線*/
-      border-radius: 10px;/*角の丸み*/
+      border: solid 3px #6091d3;
+      border-radius: 10px;
       opacity: 0.9;
     }
     .content p {
@@ -105,7 +106,7 @@
         // ここまで右側吹き出し作るために追加した部分
         //ここから右側吹き出しの追加設定
         .says2 {
-          display: inline-block;
+          // display: inline-block;
           position: relative; 
           margin: 5px 105px 0 0;
           padding: 17px 13px;
@@ -124,10 +125,6 @@
         .says2 p {
           margin: 0;
           padding: 0;
-        }
-        //ここまで右側吹き出しの追加設定
-        .answer {
-          margin-left: 360px;
         }
       }
       .content p {
